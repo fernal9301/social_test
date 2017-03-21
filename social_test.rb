@@ -1,9 +1,8 @@
 # encoding: utf-8
 # social_test.rb
-current_path = File.dirname(__FILE__)
-require_relative current_path + '/lib/test'
-require_relative current_path + '/lib/test_data'
-require_relative current_path + '/lib/result_printer'
+require_relative 'lib/test'
+require_relative 'lib/test_data'
+require_relative 'lib/result_printer'
 
 name = ARGV[0]
 name = name.encode("UTF-8") if Gem.win_platform? && ARGV[0]
