@@ -9,5 +9,5 @@
 
 Ответьте на вопросы теста и узнайте насколько вы общительный человек 
 
-Тест взят отсюда --> [http://www.syntone-spb.ru/library/onlinetests.php?test=54)
+Тест взят отсюда ----> [http://www.syntone-spb.ru/library/onlinetests.php?test=54)
 ## 
