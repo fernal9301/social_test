@@ -1,5 +1,6 @@
 # encoding: utf-8
-# social_test.rb
+# Тест на общительность
+
 require_relative 'lib/test'
 require_relative 'lib/test_data'
 require_relative 'lib/result_printer'
@@ -16,6 +17,3 @@ test.ask_question until test_data.is_finished?
 result = ResultPrinter.new
 puts "\n #{name} вы набрали #{test.points} баллов "
 puts result.result_print(test)
-
-
-
