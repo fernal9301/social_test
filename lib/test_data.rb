@@ -3,7 +3,7 @@ class TestData
   def initialize
     @question_counter = 0
     current_path = File.dirname(__FILE__)
-    file_test_questions = current_path + '/../data/test_questions.txt'
+    file_test_questions = current_path + "/../data/test_questions.txt"
     @test_questions = File.readlines(file_test_questions)
   end
 
@@ -15,7 +15,7 @@ class TestData
     @question_counter += 1
   end
 
-  def is_finished?
+  def finished?
     @question_counter >= @test_questions.size
   end
 

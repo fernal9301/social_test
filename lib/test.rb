@@ -1,6 +1,7 @@
 # encoding: utf-8
 class Test
   attr_reader :points
+
   def initialize(test_data)
     @test_data = test_data
     @points = 0
